@@ -1,0 +1,43 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            //编译
+            "label": "Build Target",
+            "type": "shell",
+            "command": "mingw32-make",
+            "presentation":{
+                "panel": "new"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            //先删除后编译
+            "label": "Rebuild Target",
+            "type": "shell",
+            "command": "rm -rf Obj && mingw32-make",
+            "presentation":{
+                "panel": "new"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            //编译并且下载
+            "label": "Build and Download",
+            "type": "shell",
+            "command": "mingw32-make && cd Debugger && ./Stlink_Download.bat",
+            "presentation":{
+                "panel": "new"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        }
+    ]
+}

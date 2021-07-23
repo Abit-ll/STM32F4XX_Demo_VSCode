@@ -1,0 +1,35 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "F:\\Free\\STM32_Demo_VSCode\\STM32F4XX_Demo_VSCode\\Src\\BSP\\inc\\",
+                "F:\\Free\\STM32_Demo_VSCode\\STM32F4XX_Demo_VSCode\\Src\\FWLIB\\inc\\",
+                "F:\\Free\\STM32_Demo_VSCode\\STM32F4XX_Demo_VSCode\\Src\\CORE\\inc\\",
+                "F:\\Free\\STM32_Demo_VSCode\\STM32F4XX_Demo_VSCode\\Src\\USER\\inc\\",
+                "F:\\Free\\STM32_Demo_VSCode\\STM32F4XX_Demo_VSCode\\Src\\FreeRTOS\\inc\\",
+                "D:\\GNU Arm Embedded Toolchain\\10 2020-q4-major\\arm-none-eabi\\include",
+                "D:\\GNU Arm Embedded Toolchain\\10 2020-q4-major\\arm-none-eabi\\include\\c++\\10.2.1",
+                "D:\\GNU Arm Embedded Toolchain\\10 2020-q4-major\\arm-none-eabi\\include\\c++\\10.2.1\\arm-none-eabi\\thumb\\v7e-m",
+                "D:\\GNU Arm Embedded Toolchain\\10 2020-q4-major\\arm-none-eabi\\include\\c++\\10.2.1\\backward",
+                "D:\\GNU Arm Embedded Toolchain\\10 2020-q4-major\\arm-none-eabi\\include\\sys",
+                "D:\\GNU Arm Embedded Toolchain\\10 2020-q4-major\\lib\\gcc\\arm-none-eabi\\10.2.1\\include",
+                "D:\\GNU Arm Embedded Toolchain\\10 2020-q4-major\\lib\\gcc\\arm-none-eabi\\10.2.1\\include-fixed"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "USE_STDPERIPH_DRIVER",
+                "STM32F40_41xxx",
+                "__GNUC__"
+            ],
+            "compilerPath": "D:\\LLVM\\bin\\clang.exe",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "windows-clang-x64"
+        }
+    ],
+    "version": 4
+}
